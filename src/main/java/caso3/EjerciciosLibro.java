@@ -58,10 +58,6 @@ public class EjerciciosLibro {
                 System.out.printf("  %s - $%.2f%n", libro.getTitulo(), libro.getPrecio())
         );
 
-        System.out.println("\n=== CONCLUSIONES ===");
-        System.out.println("✓ Operaciones filter, map, sorted y collect practicadas");
-        System.out.println("✓ Promedios y máximos manejados con Streams");
-        System.out.println("✓ Agrupación con groupingBy() y counting() entendida");
     }
 }
 

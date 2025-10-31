@@ -62,9 +62,5 @@ public class EjerciciosEmpleado {
                 .collect(Collectors.toList());
         dosMasJovenes.forEach(nombre -> System.out.println("  - " + nombre));
 
-        System.out.println("\n=== CONCLUSIONES ===");
-        System.out.println("✓ Operaciones de filtro, ordenamiento y límite aplicadas");
-        System.out.println("✓ Promedios y sumatorias calculadas con collectors");
-        System.out.println("✓ groupingBy con downstream collectors (summingDouble) practicado");
     }
 }

@@ -43,6 +43,7 @@ public class EjerciciosAlumno {
         System.out.println("\n3. Alumnos agrupados por curso:");
         Map<String, List<Alumno>> alumnosPorCurso = alumnos.stream()
                 .collect(Collectors.groupingBy(Alumno::getCurso));
+
         alumnosPorCurso.forEach((curso, listaAlumnos) -> {
             System.out.println("Curso " + curso + ":");
             listaAlumnos.forEach(alumno ->
@@ -59,10 +60,6 @@ public class EjerciciosAlumno {
                 .collect(Collectors.toList());
         tresMejoresPromedios.forEach(nota -> System.out.printf("%.2f%n", nota));
 
-        System.out.println("\n=== CONCLUSIONES ===");
-        System.out.println("✓ Pipeline de Streams aplicado correctamente");
-        System.out.println("✓ Operaciones de mapeo, filtrado, reducción y agrupación utilizadas");
-        System.out.println("✓ Código declarativo más claro que el enfoque imperativo");
     }
 }
 

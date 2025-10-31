@@ -71,10 +71,6 @@ public class EjerciciosProducto {
                 System.out.printf("    %s: $%.2f%n", categoria, promedio)
         );
 
-        System.out.println("\n=== CONCLUSIONES ===");
-        System.out.println("✓ Programación funcional aplicada en contexto real");
-        System.out.println("✓ Reportes y estadísticas generadas con Streams");
-        System.out.println("✓ Lambdas, collectors y manipulación funcional consolidados");
     }
 }
 
