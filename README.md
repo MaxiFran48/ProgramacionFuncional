@@ -1,5 +1,9 @@
 # Trabajo Práctico - Programación Funcional en Java
 
+## Datos del estudiante
+Nombre y Apellido: Máximo Fran
+Legajo: 50903
+
 ## Estructura del Proyecto
 
 El proyecto contiene 4 casos prácticos de programación funcional con Streams de Java:
